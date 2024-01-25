@@ -1,0 +1,76 @@
+body {
+    background: #8f1717;
+    font-family: 'URW Bookman', serif;
+}
+
+h1 {
+    color: #c9c9c9;
+}
+
+.mainHeader {
+    background: url("brush1.png") no-repeat center;
+    background-size: 550px auto;
+    position: relative;
+    height: 200px;
+}
+
+h2 {
+    color: #c9c9c9;
+}
+
+.hero {
+    background: url("brush2.png") no-repeat center;
+    background-size: 600px auto;
+    position: relative;
+    height: 600px;
+}
+
+.quotation {
+    color: #c9c9c9;;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.quotes {
+    max-width: 300px;
+}
+
+p {
+    color: black;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.headline-left {
+    background: url("strokeleft.png") no-repeat center;
+    background-size: 400px auto;
+    height: 150px;
+}
+
+.headline-right {
+    background: url("strokeright.png") no-repeat center;
+    background-size: 400px auto;
+    height: 150px;
+}
+
+.right {
+    height: 250px;
+}
+
+.left {
+    height: 250px;
+}
+
+@media only screen and (max-width: 800px) {
+    .buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.span {
+    color: black;
+    text-align: center;
+    padding-top: 3em;
+}

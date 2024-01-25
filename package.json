@@ -1,0 +1,21 @@
+{
+  "name": "firenationattacks",
+  "version": "1.0.0",
+  "description": "A web app that simulates the stubbornness of Zuko during the first and the second season of Avatar The Last Airbender.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Su Jade",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
